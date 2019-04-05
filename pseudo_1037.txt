@@ -1,0 +1,21 @@
+ALGORITMO 1037.c
+DECLARE N : REAL;
+INICIO
+  LEIA(N)
+  
+  SE N >= 0 E N <= 25 ENTÃO
+    ESCREVA("Intervalo [0,25]")
+    
+  SENÃO SE N > 25 E N =< 50 ENTÃO
+    ESCREVA("Intervalo (25,50]")
+    
+  SENÃO SE N > 50 E N =< 75 ENTÃO
+    ESCREVA("Intervalo (50,75]")
+    
+  SENÃO SE N > 75 E N =< 100 ENTÃO
+    ESCREVA("Intervalo (75,100]")
+    
+  SENÃO
+    ESCREVA("Fora de intervalo")
+    
+FIM
